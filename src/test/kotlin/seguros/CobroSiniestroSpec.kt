@@ -35,7 +35,7 @@ class CobroSiniestroSpec : DescribeSpec({
             // Arrange
             val flotaConMuchosAutos = Flota(cantidadDeAutos = 6)
             // Act
-            flotaConMuchosAutos.facturar(10001)
+            flotaConMuchosAutos.facturar(10000)
             // Assert
             flotaConMuchosAutos.puedeCobrarSiniestro() shouldBe false
         }
